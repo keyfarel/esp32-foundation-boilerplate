@@ -76,7 +76,7 @@ esp32-foundation-boilerplate/
 
 1. Clone this repository to your local machine:
 ```bash
-git clone https://github.com/YourUsername/esp32-foundation-boilerplate.git
+git clone https://github.com/keyfarel/esp32-foundation-boilerplate.git
 cd esp32-foundation-boilerplate
 ```
 
