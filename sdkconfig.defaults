@@ -1,0 +1,9 @@
+# Configure Flash Size to 4MB (Removes "Detected size larger than binary" warning)
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Support BOYA Flash Chip (Removes "using generic driver" warning)
+CONFIG_SPI_FLASH_SUPPORT_BOYA_CHIP=y
+
+# Disable Automatic Task Watchdog Initialization (Removes TWDT init error log)
+# We manually initialize it in main.c, so we don't need the system to do it twice.
+CONFIG_ESP_TASK_WDT_INIT=n

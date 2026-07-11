@@ -1,0 +1,8 @@
+---
+BasedOnStyle: WebKit
+IndentWidth: 4
+ColumnLimit: 120
+SortIncludes: false
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: false
+IndentCaseLabels: true

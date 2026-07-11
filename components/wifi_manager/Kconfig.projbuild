@@ -1,0 +1,22 @@
+menu "WiFi Configuration"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "myssid"
+        help
+            SSID (network name) for the ESP32 to connect to.
+
+    config ESP_WIFI_PASSWORD
+        string "WiFi Password"
+        default "mypassword"
+        help
+            WiFi password (WPA2 PSK) for the ESP32.
+
+    config ESP_MAXIMUM_RETRY
+        int "Maximum retry attempts"
+        default 5
+        help
+            Set the Maximum retry to avoid station reconnecting to the AP forever when
+            the AP is not found. After this amount of retries, it will retry every 5 seconds.
+
+endmenu

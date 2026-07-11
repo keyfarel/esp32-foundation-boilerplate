@@ -1,0 +1,16 @@
+# Compilation output (must be ignored to prevent bloating the repository)
+build/
+.cache/
+
+# Temporary configuration files (Contains Sensitive Data like Wi-Fi Passwords!)
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Third-party components from ESP Registry (similar to node_modules)
+managed_components/
+
+# OS-specific and IDE configuration files
+.DS_Store
+Thumbs.db
+.vscode/
