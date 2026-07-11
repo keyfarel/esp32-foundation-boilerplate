@@ -6,7 +6,7 @@
 
 Welcome to the dedicated testing environment for the **ESP32 Foundation Boilerplate**. 
 
-Unlike basic Arduino sketches, enterprise-grade firmware requires strict validation. This folder contains a fully isolated **Hardware-in-the-Loop (HIL) testing architecture** powered by the **Unity** test framework natively supported by ESP-IDF v5.x.
+Unlike basic Arduino sketches, production firmware benefits from repeatable automated testing. This folder contains a fully isolated **Hardware-in-the-Loop (HIL) testing architecture** powered by the **Unity** test framework natively supported by ESP-IDF v5.x.
 
 ---
 
@@ -62,7 +62,7 @@ TEST_CASE("Math works", "[dummy_tag]") {
 }
 ```
 
-### Approach B: The Enterprise Way (For Pros)
+### Approach B: Modular Approach (Recommended for Growing Projects)
 
 If your project is growing, keep your tests modular and scalable by creating a separate component for each test module (just like we did with `test_sys_monitor` and `test_wifi_manager`).
 
