@@ -103,7 +103,7 @@ Below are common issues encountered during testing and how to resolve them:
 
 ## Need More Features?
 
-Want to automate this? In the upcoming **ESP-IDF Pro-Max Boilerplate**, we include complete CI/CD GitHub Actions workflows. Push your code, and the cloud will automatically build and execute these tests on real hardware runners before merging!
+Want to automate this? In the upcoming **ESP-IDF Pro Boilerplate**, we include complete CI/CD GitHub Actions workflows. Push your code, and the cloud will automatically build and execute these tests on real hardware runners before merging!
 
 *(Stay tuned for the Pro Version. Follow my Gumroad / Join the Waitlist [here](#) to get an exclusive early-bird discount when it drops!)*
 

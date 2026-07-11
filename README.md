@@ -142,7 +142,7 @@ This free Foundation Boilerplate provides a clean and reliable starting point fo
 
 **However, if you are building a commercial product for mass production, you need more.**
 
-Upgrade to the **[ESP-IDF Pro-Max Boilerplate (Coming Soon)](#)** to unlock:
+Upgrade to the **[ESP-IDF Pro Boilerplate (Coming Soon)](#)** to unlock:
 - **Over-The-Air (OTA) Updates:** Update firmware remotely without physical cables.
 - **SmartConfig / Captive Portal:** Let end-users configure Wi-Fi passwords from their smartphones (No hardcoded credentials!).
 - **Secure MQTT & CI/CD Pipelines:** Ready for AWS/GCP IoT Core integrations.
