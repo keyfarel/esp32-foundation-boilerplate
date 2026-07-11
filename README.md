@@ -138,7 +138,7 @@ Common issues faced by beginners and how to solve them:
 
 ## Enterprise Ready? (Need More Features?)
 
-This free Basic Boilerplate is specifically scoped to provide a reliable foundation for local IoT projects. It handles the hardest parts of embedded development (memory management and connectivity) so you can focus on reading sensors and moving motors.
+This free Foundation Boilerplate provides a clean and reliable starting point for ESP-IDF applications. It handles the hardest parts of embedded development (memory management and connectivity) so you can focus on reading sensors and moving motors.
 
 **However, if you are building a commercial product for mass production, you need more.**
 
